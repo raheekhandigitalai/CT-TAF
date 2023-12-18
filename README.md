@@ -79,6 +79,6 @@ From your Terminal window, you can run Automated Tests in two ways (_Currently, 
 
 ```mvn clean test -DxmlFile=yourXmlFile1.xml,yourXmlFile2.xml``` - Runs all tests from two .xml files
 
-This should trigger Automation Tests against the configured Cloud in config.properties:
+This should trigger Automation Tests against the configured Continuous Testing platform as defined in ```config.properties```:
 
 ![img.png](images/test_execution.png)
